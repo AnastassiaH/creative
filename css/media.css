@@ -2,22 +2,111 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .section .wrapper,
+    .footer .wrapper{
+        width: 90%;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .section .sidebar .side_wrapper{
+        padding: 30px 25px;
+    }
+    
+    .section .sidebar .side_wrapper button.ins_inp{
+        display: none;
+    }
+    
+    .section .sidebar .side_wrapper button.inp img{
+        left: 8px;
+    }
+    
+    .section .sidebar .side_wrapper button.inp{
+        padding-left: 29px;
+    }
+    
+    .section .social_global{
+        position: absolute;
+        top: 160px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .section .wrapper .left_side{
+        width: 100%;
+        float: none;
+    }
+    
+    .section .sidebar{
+        float: none;
+        width: 95%;
+    }
+    
+    .section .sidebar .layout,
+    .footer .wrapper .btn_container button.inp span,
+    .section .social_global{
+        display: none;
+    }
+    
+    .section{
+        padding-bottom: 40px;
+    }
+    
+     header .top_nav .navigation ul li a{
+        padding: 14px 9px;
+    }
+    
+    .footer{
+        padding: 50px 0 50px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .shape i{
+        font-size: 18px;
+        line-height: 34px;
+    }
+    
+    .shape{
+        width: 34px;
+        height: 34px;
+    }
+    
+    .footer .wrapper .colmn,
+    .section .wrapper .left_side .two_columns .colmn{
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    
+    .footer .wrapper .colmn .btn_container{
+        float: none;
+        margin-top: 15px;
+        width: 100%;
+    }
+    
+    header .top_nav .navigation{
+        width: 100%;
+        margin: 0;
+    }
+    
+    header .top_nav .logo{
+        width: 100%;
+        position: static;
+    }
+    
+    header .top_nav .navigation ul{
+        display: inline-block;
+        margin: 0;
+    }
+    
+    header .top_nav .navigation ul li a{
+        padding: 14px 5px;
+        font-size: 11px;
+    }
 }
 
 /* Custom, iPhone Retina */

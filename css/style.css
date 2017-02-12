@@ -149,7 +149,8 @@ header {
             font-size: 30px;
             line-height: 34px;
             color: #3a3e3f;
-            margin: 0; }
+            margin: 0;
+            animation-duration: 1s; }
           .section .wrapper .left_side .content .descr span {
             font-family: "HelveticaItalic";
             font-size: 11px;

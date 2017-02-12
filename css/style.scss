@@ -201,6 +201,7 @@ header{
                         line-height: 34px;
                         color: #3a3e3f;
                         margin: 0;
+                        animation-duration: 1s;
                     }
                     span{
                         font-family: "HelveticaItalic";
@@ -437,7 +438,7 @@ header{
     .social_global{
         position: fixed;
         left: 0px;
-        top: 230px;;
+        top: 230px;
         ul{
             li{
                 width: 41px;

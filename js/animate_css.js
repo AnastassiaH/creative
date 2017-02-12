@@ -15,4 +15,9 @@
 
 		});
 	};
+    
+    
+    $(".shape").animated("pulse", "pulse");
+    $(".social_global").animated("pulse", "pulse"); 
+        
 })(jQuery);
